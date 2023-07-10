@@ -194,7 +194,6 @@ open class SwipeCollectionViewCell: UICollectionViewCell {
     func reset() {
         contentView.clipsToBounds = false
         swipeController.reset()
-        collectionView?.setGestureEnabled(true)
     }
     
     func resetSelectedState() {
